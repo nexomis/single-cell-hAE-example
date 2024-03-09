@@ -1,0 +1,12 @@
+# Single Cell analysis Exemple with public data
+
+The data comes from : https://pubmed.ncbi.nlm.nih.gov/36216966/
+
+"An anti-influenza combined therapy assessed by single cell RNA-sequencing"
+
+## notebooks
+
+`fetch_samples.ipynb` : fetch data
+`mock.ipynb` : test with mock mucilair
+
+

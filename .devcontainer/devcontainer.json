@@ -1,5 +1,5 @@
 {
-	"name": "template_nf_awsbatch",
+	"name": "single-cell",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": { "dockerfile": "Dockerfile" },
 
@@ -24,3 +24,4 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
+
