@@ -31,4 +31,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 
 RUN Rscript -e "install.packages(c('ggExtra'))" \
   && Rscript -e "devtools::install_github('guokai8/rcellmarker')" \
-  && Rscript -e "devtools::install_github('rx-li/EasyCellType')"
+  && Rscript -e "devtools::install_github('rx-li/EasyCellType')" \
+  && Rscript -e "install.packages(c('SoupX'), repos = 'http://cran.rstudio.com/')" \
